@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".WeatherDataActivty">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTempC"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tvTempC"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvTempCv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTempF"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tvTempF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvTempFv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tvTime"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvTimev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvWindM"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tvWindK"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvWindMv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvWindK"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tvWindM"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvWindKv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvWindD"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tvWindD"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvWindDv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvCloud"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tvCloud"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvCloudv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgv"
+        android:layout_width="252dp"
+        android:layout_height="156dp"
+        android:layout_weight="1"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnBackOnClick"
+        android:text="@string/btnBack" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lab 10 - API Omelko</string>
+    <string name="tvCity">City</string>
+    <string name="tvKey">API Key</string>
+    <string name="etCity">Moscow</string>
+    <string name="btnQuery">Weather</string>
+    <string name="btnBack">Back</string>
+    <string name="tvTempC">Temperature C</string>
+    <string name="tvTempF">Temperature F</string>
+    <string name="tvTime">Local time</string>
+    <string name="tvWindM">Wind speed mph</string>
+    <string name="tvWindK">Wind speed kph</string>
+    <string name="tvWindD">Wind direction</string>
+    <string name="tvCloud">Cloud</string>
+</resources>
